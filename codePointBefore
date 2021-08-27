@@ -1,0 +1,11 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        String name="rohan";
+
+        int ch=name.codePointBefore(2);
+        System.out.println(ch);
+    }
+      
+}
+        
