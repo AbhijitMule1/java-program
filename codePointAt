@@ -1,0 +1,12 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+        String name="rahan";
+
+        int ch=name.codePointAt(3);
+        System.out.println(ch);
+        
+        
+     }
+}
