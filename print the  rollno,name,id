@@ -1,0 +1,13 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+       // System.out.println("Hello World");
+        int rollno=10;
+        String name="rohan";
+        int id=1012;
+        System.out.println(rollno);
+        System.out.println(name);
+        System.out.println(id);
+     }
+}
