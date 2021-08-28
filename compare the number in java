@@ -1,0 +1,11 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         int r=11;
+         int k=11;
+         if(r==k)
+        System.out.println("true,its same value");
+        else
+         System.out.println("false,its not same value");
+     }
+}
