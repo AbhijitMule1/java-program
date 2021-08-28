@@ -1,0 +1,13 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         int a=10;
+         int r=20;
+     int k=Math.max(a,r);
+     int m=Math.min(a,r);
+     System.out.println("maximum");
+     System.out.println(k);
+     System.out.println("minimum");
+        System.out.println(m);
+     }
+}
