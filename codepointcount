@@ -1,0 +1,8 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         String mystr="rohan";
+        int result=mystr.codePointCount(2,3);
+        System.out.println(result);
+     }
+}
