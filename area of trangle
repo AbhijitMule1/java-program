@@ -1,0 +1,10 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        double h=4;
+        double b=6;
+        double c;
+        c=0.5*h*b;
+        System.out.println(c);
+     }
+}
