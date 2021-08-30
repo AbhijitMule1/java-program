@@ -1,0 +1,40 @@
+package assingment;
+import java.util.Scanner;
+public class Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scanner sc=new Scanner(System.in);
+    System.out.println("1.decimalno:,\n2.hexadecimal:\n3.octal\n4.exit");
+    
+    
+    int num;
+    do {
+    	System.out.println("\nenter your case:");
+     num=sc.nextInt();
+    switch(num) {
+    case  1:
+    	System.out.printf("enter decimal number:");
+    	 int a=sc.nextInt();
+    	 System.out.printf("decimal=%d",a);
+    	 break;
+    case 2:
+    	System.out.printf("enter hexadecimal number:");
+    	int b=sc.nextInt();
+    	      System.out.printf("hexadecimal=%x",b);
+    	       break;
+    case 3:
+    	System.out.printf("enter octal number:");
+    	int c=sc.nextInt();
+    	   System.out.printf("octal=%o",c);
+    	   break;
+    case 4:
+    	System.exit(0);
+      default :
+               System.out.println("enter correct choice");
+    }
+    }  while(num!=5);    
+    }
+	}
+
+
