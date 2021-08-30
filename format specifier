@@ -1,0 +1,15 @@
+package assingment;
+
+public class Binary1 {
+
+	public static void main(String[] args) {
+		
+		int a=32;
+		
+	System.out.printf("decimal=%d\n",a);
+	System.out.printf("hexadecimal=%x\n",a);
+	System.out.printf("occtal=%o\n",a);
+		
+	}
+
+}
