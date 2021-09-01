@@ -1,0 +1,67 @@
+package rohan;
+import java.util.Scanner;
+public class sandy {
+
+	public static void main(String[] args, int r) {
+		// TODO Auto-generated method stub
+		System.out.println("my program for using all stringbuffer");
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("1.delete\n2.deletecharAt()\n3.insert\n4.append\n5.reverse\n6.replace");
+
+
+	    int num;
+	    do {
+	    	System.out.println("\nenter your case:");
+	     num=sc.nextInt();
+	    switch(num) {
+	    case  1:
+	    	System.out.printf("string is delete:");
+	       
+	       StringBuffer sb=new StringBuffer("rohan kadam");
+	     System.out.println(sb.delete(0, 3));
+	    	 break;
+	    case 2:
+	    	System.out.printf("using deletecharAt:");
+	    	 StringBuffer av=new StringBuffer("rohan kadam");
+		     System.out.println(av.deleteCharAt(3));
+	    	       break;
+	    case 3:
+	    	System.out.printf("insert new character in a string:");
+	    	StringBuffer rm=new StringBuffer("rohan kadam");
+		     System.out.println(rm.insert(r, 5));
+	    	   break;
+	    case 4:
+	    	System.out.printf("append the string:");
+	    	StringBuffer rs=new StringBuffer("rohan kadam");
+		     System.out.println((rs.append(4)));
+	          
+	    	   break;
+	    case 5:
+	    	System.out.printf("revers the string:");
+	    	StringBuffer vs=new StringBuffer("rohan kadam");
+		     System.out.println(vs.reverse());
+	    	   break;
+	    case 6:
+	    	System.out.printf("check both string are equal or greater:");
+	    	StringBuffer ma=new StringBuffer("rohan kadam");
+		     System.out.println(ma.replace(r, 5, null));
+
+	    	   break;
+	    case 7:	    	System.exit(0);
+	      default :
+	               System.out.println("enter correct choice");
+	    }
+	    }  while(num!=7);    
+	    }
+
+		
+
+		
+	}
+
+
+
+		
+
+		
+	}
