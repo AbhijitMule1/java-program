@@ -1,0 +1,57 @@
+package AllChar;
+
+public class MyChar {
+	 boolean toCheckAlpha(String str)  { 
+			int cntdigit=0,cntchar=0,cntsp=0,cntrk=0,cntmohini=0;
+			for(int i=0;i<=str.length()-1;i++) {
+				System.out.print(str.charAt(i)+" ");
+				
+				boolean b=Character.isUpperCase(str.charAt(i));
+				
+				if(b) {
+					
+					cntdigit++;
+				}
+				boolean b1=Character.isLowerCase(str.charAt(i));
+				
+				if(b1) {
+					
+					cntchar++;
+				}
+				boolean b2=Character.isWhitespace(str.charAt(i));
+				
+				if(b2) {
+					
+					cntsp++;
+				}
+				boolean b3=Character.isLetterOrDigit(str.charAt(i));
+				
+				if(b3) {
+					
+					cntrk++;
+				}
+				boolean b4=Character.isAlphabetic(str.charAt(i));
+				
+				if(b4) {
+					
+					cntmohini++;
+				}
+		}
+		    System.out.println();
+		    System.out.println(cntdigit);
+		    System.out.println(cntchar);
+		    System.out.println(cntsp);
+		    System.out.println(cntrk);
+		    System.out.println(cntmohini);
+			return false;
+			
+			 }
+
+			
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new MyChar().toCheckAlpha("sangOLA123@");
+	}
+
+}
