@@ -1,0 +1,51 @@
+package mynew;
+
+public class MyPro12 {
+	int input1() {
+	 int a=20;
+	return a;
+	}
+
+	 
+	 
+		
+	 
+	 void show() {
+		 int z;
+		
+		 MyPro12 c=new MyPro12();
+			int d=c.input1();
+
+	    Mypro321 c1=new Mypro321();
+	  int e=  c1.input2();
+		
+		
+			z=d+e;
+			System.out.println("addition:"+z);
+	 }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyPro12 c=new MyPro12();
+		c.input1();
+		
+	
+	 
+    c.show();  
+    Mypro321 c1=new Mypro321();
+    c1.input2();
+  // c1.show();
+	}
+}
+
+	  class Mypro321{
+	public int input2() {
+		int b=30;
+		return b;
+	}
+	  } 
+
+	
+	
+
+OUTPUT-:addition:50
